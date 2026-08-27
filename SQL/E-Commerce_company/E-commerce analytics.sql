@@ -1,9 +1,11 @@
+-- E-commerice Analytics SQL File
 -- Renaming and clearing the data
 
 select * from customers;
 
 desc customers;
-
+----------------------------------------------------
+--Making changes to Column Name
 alter table customers
 rename column ï»¿customer_id to customer_id;
 
@@ -31,7 +33,7 @@ select * from products; -- product_id, name, category, price
 desc products;
 ------------------------------------------------------------------------
 /*  
-Identify the top 3 cities with the highest number of customers to determine key markets for targeted marketing and logistic optimization.
+Q1. Identify the top 3 cities with the highest number of customers to determine key markets for targeted marketing and logistic optimization.
 */
 
 select location, count(customer_id) as number_of_customers
@@ -86,7 +88,6 @@ group by 1;
 Q3.
 Identify products where the average purchase quantity per order is 2 but with a high total revenue, suggesting premium product trends.
 
-Hint:
 Use “OrderDetails”.
 Return the result table which includes average quantity and the total revenue in descending order.
 */
@@ -111,7 +112,6 @@ Q4.
 
 For each product category, calculate the unique number of customers purchasing from it. This will help understand which categories have wider appeal across the customer base.
 
-Hint:
 Use the “Products”, “OrderDetails” and “Orders” table.
 Return the result table which will help you count the unique number of customers in descending order.
 */
@@ -133,7 +133,6 @@ order by unique_customers desc;
 Q5.
 Analyze the month-on-month percentage change in total sales to identify growth trends.
 
-Hint:
 Use the “Orders” table.
 Return the result table which will help you get the month (YYYY-MM), Total Sales and Percent Change of the total amount (Present month value- Previous month value/ Previous month value)*100.
 The resulting change in percentage should be rounded to 2 decimal places.
@@ -176,7 +175,6 @@ from monthly_sales;
 Q6.
 Examine how the average order value changes month-on-month. Insights can guide pricing and promotional strategies to enhance order value.
 
-Hint:
 Use the “Orders” Table.
 Return the result table which will help you get the month (YYYY-MM), Average order value and Change in the average order value (Present month value- Previous month value).
 Both the resulting AvgOrderValue and ChangeInValue column should be rounded to two decimal places, with the final results ordered in descending order by ChangeInValue.
@@ -203,7 +201,6 @@ order by changeinvalue desc;
 Q7.
 Based on sales data, identify products with the fastest turnover rates, suggesting high demand and the need for frequent restocking.
 
-Hint:
 Use the “OrderDetails” table.
 Return the result table limited to top 5 product according to the SalesFrequency column in descending order.
 */
@@ -224,7 +221,6 @@ limit 5;
 Q8.
 List products purchased by less than 40% of the customer base, indicating potential mismatches between inventory and customer interest.
 
-Hint:
 Use the “Products”, “Orders”, “OrderDetails” and “Customers” table.
 Return the result table which will help you get the product names along with the count of unique customers who belong to the lower 40% of the customer pool.
 */
@@ -252,7 +248,6 @@ order by uniquecustomercount ;
 Q9.
 Evaluate the month-on-month growth rate in the customer base to understand the effectiveness of marketing campaigns and market expansion efforts.
 
-Hint:
 Use the “Orders” table.
 Return the result table which will help you get the count of the number of customers who made the first purchase on monthly basis.
 The resulting table should be ascendingly ordered according to the month.
@@ -277,7 +272,6 @@ order by month;
 Q10.
 Identify the months with the highest sales volume, aiding in planning for stock levels, marketing efforts, and staffing in anticipation of peak demand periods.
 
-Hint:
 Use the “Orders” table.
 Return the result table which will help you get the month (YYYY-MM) and the Total sales made by the company limiting to top 3 months.
 The resulting table should be in descending order suggesting the highest sales month.
