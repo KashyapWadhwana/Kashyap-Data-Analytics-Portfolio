@@ -17,3 +17,12 @@ The main objectives of this project are:
 - Evaluate artist-wise revenue and attendance.
 - Analyze sponsorship and merchandise contribution.
 - Generate actionable recommendations for festival organizers.
+
+## 🛠️ Tools & Technologies
+- Microsoft Excel
+- Excel Pivot Tables
+- Excel Charts & Visualizations
+- Data Cleaning & Transformation
+- Descriptive Data Analysis
+- Dashboard Creation
+- Mircosoft PowerBI
