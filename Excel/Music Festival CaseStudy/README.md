@@ -1,4 +1,4 @@
-India Music Festival Analytics 2024
+## India Music Festival Analytics 2024
 📌 Project Overview
 
 The India Music Festival Analytics 2024 project is an Excel-based data analysis project designed to analyze music festival performance across different cities, months, artists, ticket-price ranges, event categories, and revenue streams.
