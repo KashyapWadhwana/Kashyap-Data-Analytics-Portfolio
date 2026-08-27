@@ -10,8 +10,6 @@ The project uses Tableau to transform the raw rental data into interactive dashb
 - Price Analysis – Comparison of rental prices across locations and property types.
 - Location Analysis – Exploration of listings across different neighbourhoods and cities.
 - Availability Analysis – Analysis of property availability and daily pricing.
-- Review Analysis – Evaluation of customer ratings and review scores.
-- Host Analysis – Understanding host activity and listing distribution.
 - Property Characteristics – Analysis of bedrooms, bathrooms, beds, and accommodation capacity.
 - Tableau Visualizations
 
@@ -22,5 +20,4 @@ The project uses Tableau to transform the raw rental data into interactive dashb
 - Property and room-type distribution
 - Review score analysis
 - Host and listing analysis
-- Accommodation capacity
 - Geographic distribution of properties
