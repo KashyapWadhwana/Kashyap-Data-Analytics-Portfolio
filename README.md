@@ -24,8 +24,8 @@ Interactive dashboards created to transform data into meaningful and easy-to-und
 
 | **Project**                 | **Description**                                                                                                                                                 |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. India Music Festival** | Interactive Power BI dashboard analyzing India Music Festival data through KPIs, charts, filters, and visualizations to identify important trends and insights. |
-| **2. Netflix Dataset**      | Interactive Power BI dashboard analyzing Netflix content, including movies and TV shows, genres, ratings, release years, countries, and content trends.         |
+| **India Music Festival** | Interactive Power BI dashboard analyzing India Music Festival data through KPIs, charts, filters, and visualizations to identify important trends and insights. |
+| **Netflix Dataset**      | Interactive Power BI dashboard analyzing Netflix content, including movies and TV shows, genres, ratings, release years, countries, and content trends.         |
 
 
 ### 📈 Tableau
